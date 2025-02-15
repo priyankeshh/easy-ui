@@ -16,22 +16,19 @@ EasyUI is an intuitive AI-powered UI development assistant that helps developers
 
 ## 📸 Screenshots
 
-<details>
-<summary>View Screenshots</summary>
-
 ### Chat Interface
-![Chat Interface](path/to/chat-screenshot.png)
+![image](https://github.com/user-attachments/assets/0149048a-c935-40fb-927e-788ff0216528)
 *AI-powered chat interface for natural language interactions*
 
 ### Code Editor
-![Code Editor](path/to/editor-screenshot.png)
+![image](https://github.com/user-attachments/assets/6253c196-5000-464c-8c37-61a2cbb1b996)
 *Built-in code editor with modern features*
 
 ### Workbench
-![Workbench](path/to/workbench-screenshot.png)
+![image](https://github.com/user-attachments/assets/df57427a-8000-4285-a6c0-1f0fca609341)
 *Integrated development environment with live preview*
 
-</details>
+
 
 ## 🚀 Technologies
 
@@ -47,7 +44,7 @@ EasyUI is an intuitive AI-powered UI development assistant that helps developers
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/easyui.git
+git clone https://github.com/priyankeshh/easy-ui
 cd easyui
 ```
 
