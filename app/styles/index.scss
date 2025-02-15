@@ -1,0 +1,21 @@
+@use 'variables.scss';
+@use 'z-index.scss';
+@use 'animations.scss';
+@use 'components/terminal.scss';
+@use 'components/resize-handle.scss';
+@use 'components/code.scss';
+@use 'components/editor.scss';
+@use 'components/toast.scss';
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --gradient-opacity: 0.8;
+  --primary-color: linear-gradient(to right, #6441a5, #2ae845);
+  --secondary-color: linear-gradient(to right, #6441a5, #2ae845);
+  --accent-color: linear-gradient(to right, #6441a5, #2ae845);
+}

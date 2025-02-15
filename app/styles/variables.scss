@@ -1,0 +1,251 @@
+/* Color Tokens Light Theme */
+:root,
+:root[data-theme='light'] {
+  --easyui-elements-borderColor: theme('colors.alpha.gray.10');
+  --easyui-elements-borderColorActive: #6441a5;
+
+  --easyui-elements-bg-depth-1: theme('colors.white');
+  --easyui-elements-bg-depth-2: theme('colors.gray.50');
+  --easyui-elements-bg-depth-3: theme('colors.gray.200');
+  --easyui-elements-bg-depth-4: theme('colors.alpha.gray.5');
+
+  --easyui-elements-textPrimary: theme('colors.gray.950');
+  --easyui-elements-textSecondary: theme('colors.gray.600');
+  --easyui-elements-textTertiary: theme('colors.gray.500');
+
+  --easyui-elements-code-background: theme('colors.gray.100');
+  --easyui-elements-code-text: theme('colors.gray.950');
+
+  --easyui-elements-button-primary-background: theme('colors.alpha.accent.10');
+  --easyui-elements-button-primary-backgroundHover: color-mix(in srgb, #6441a5 20%, transparent);
+  --easyui-elements-button-primary-text: #6441a5;
+
+  --easyui-elements-button-secondary-background: theme('colors.alpha.gray.5');
+  --easyui-elements-button-secondary-backgroundHover: theme('colors.alpha.gray.10');
+  --easyui-elements-button-secondary-text: theme('colors.gray.950');
+
+  --easyui-elements-button-danger-background: theme('colors.alpha.red.10');
+  --easyui-elements-button-danger-backgroundHover: theme('colors.alpha.red.20');
+  --easyui-elements-button-danger-text: theme('colors.red.500');
+
+  --easyui-elements-item-contentDefault: theme('colors.alpha.gray.50');
+  --easyui-elements-item-contentActive: theme('colors.gray.950');
+  --easyui-elements-item-contentAccent: #6441a5;
+  --easyui-elements-item-contentDanger: theme('colors.red.500');
+  --easyui-elements-item-backgroundDefault: rgba(0, 0, 0, 0);
+  --easyui-elements-item-backgroundActive: theme('colors.alpha.gray.5');
+  --easyui-elements-item-backgroundAccent: theme('colors.alpha.accent.10');
+  --easyui-elements-item-backgroundDanger: theme('colors.alpha.red.10');
+
+  --easyui-elements-loader-background: theme('colors.alpha.gray.10');
+  --easyui-elements-loader-progress: theme('colors.accent.500');
+
+  --easyui-elements-artifacts-background: theme('colors.white');
+  --easyui-elements-artifacts-backgroundHover: theme('colors.alpha.gray.2');
+  --easyui-elements-artifacts-borderColor: var(--easyui-elements-borderColor);
+  --easyui-elements-artifacts-inlineCode-background: theme('colors.gray.100');
+  --easyui-elements-artifacts-inlineCode-text: var(--easyui-elements-textPrimary);
+
+  --easyui-elements-actions-background: theme('colors.white');
+  --easyui-elements-actions-code-background: theme('colors.gray.800');
+
+  --easyui-elements-messages-background: theme('colors.gray.100');
+  --easyui-elements-messages-linkColor: theme('colors.accent.500');
+  --easyui-elements-messages-code-background: theme('colors.gray.800');
+  --easyui-elements-messages-inlineCode-background: theme('colors.gray.200');
+  --easyui-elements-messages-inlineCode-text: theme('colors.gray.800');
+
+  --easyui-elements-icon-success: theme('colors.green.500');
+  --easyui-elements-icon-error: theme('colors.red.500');
+  --easyui-elements-icon-primary: theme('colors.gray.950');
+  --easyui-elements-icon-secondary: theme('colors.gray.600');
+  --easyui-elements-icon-tertiary: theme('colors.gray.500');
+
+  --easyui-elements-dividerColor: theme('colors.gray.100');
+
+  --easyui-elements-prompt-background: theme('colors.alpha.white.80');
+
+  --easyui-elements-sidebar-dropdownShadow: theme('colors.alpha.gray.10');
+  --easyui-elements-sidebar-buttonBackgroundDefault: theme('colors.alpha.accent.10');
+  --easyui-elements-sidebar-buttonBackgroundHover: theme('colors.alpha.accent.20');
+  --easyui-elements-sidebar-buttonText: theme('colors.accent.700');
+
+  --easyui-elements-preview-addressBar-background: theme('colors.gray.100');
+  --easyui-elements-preview-addressBar-backgroundHover: theme('colors.alpha.gray.5');
+  --easyui-elements-preview-addressBar-backgroundActive: theme('colors.white');
+  --easyui-elements-preview-addressBar-text: var(--easyui-elements-textSecondary);
+  --easyui-elements-preview-addressBar-textActive: var(--easyui-elements-textPrimary);
+
+  --easyui-elements-terminals-background: theme('colors.white');
+  --easyui-elements-terminals-buttonBackground: var(--easyui-elements-bg-depth-4);
+
+  --easyui-elements-cta-background: theme('colors.gray.100');
+  --easyui-elements-cta-text: theme('colors.gray.950');
+
+  /* Terminal Colors */
+  --easyui-terminal-background: var(--easyui-elements-terminals-background);
+  --easyui-terminal-foreground: #333333;
+  --easyui-terminal-selection-background: #00000040;
+  --easyui-terminal-black: #000000;
+  --easyui-terminal-red: #cd3131;
+  --easyui-terminal-green: #00bc00;
+  --easyui-terminal-yellow: #949800;
+  --easyui-terminal-blue: #0451a5;
+  --easyui-terminal-magenta: #bc05bc;
+  --easyui-terminal-cyan: #0598bc;
+  --easyui-terminal-white: #555555;
+  --easyui-terminal-brightBlack: #686868;
+  --easyui-terminal-brightRed: #cd3131;
+  --easyui-terminal-brightGreen: #00bc00;
+  --easyui-terminal-brightYellow: #949800;
+  --easyui-terminal-brightBlue: #0451a5;
+  --easyui-terminal-brightMagenta: #bc05bc;
+  --easyui-terminal-brightCyan: #0598bc;
+  --easyui-terminal-brightWhite: #a5a5a5;
+}
+
+/* Color Tokens Dark Theme */
+:root,
+:root[data-theme='dark'] {
+  --easyui-elements-borderColor: theme('colors.alpha.white.10');
+  --easyui-elements-borderColorActive: #2ae845;
+
+  --easyui-elements-bg-depth-1: theme('colors.gray.950');
+  --easyui-elements-bg-depth-2: theme('colors.gray.900');
+  --easyui-elements-bg-depth-3: theme('colors.gray.800');
+  --easyui-elements-bg-depth-4: theme('colors.alpha.white.5');
+
+  --easyui-elements-textPrimary: theme('colors.white');
+  --easyui-elements-textSecondary: theme('colors.gray.400');
+  --easyui-elements-textTertiary: theme('colors.gray.500');
+
+  --easyui-elements-code-background: theme('colors.gray.800');
+  --easyui-elements-code-text: theme('colors.white');
+
+  --easyui-elements-button-primary-background: theme('colors.alpha.accent.10');
+  --easyui-elements-button-primary-backgroundHover: color-mix(in srgb, #2ae845 20%, transparent);
+  --easyui-elements-button-primary-text: #2ae845;
+
+  --easyui-elements-button-secondary-background: theme('colors.alpha.white.5');
+  --easyui-elements-button-secondary-backgroundHover: theme('colors.alpha.white.10');
+  --easyui-elements-button-secondary-text: theme('colors.white');
+
+  --easyui-elements-button-danger-background: theme('colors.alpha.red.10');
+  --easyui-elements-button-danger-backgroundHover: theme('colors.alpha.red.20');
+  --easyui-elements-button-danger-text: theme('colors.red.500');
+
+  --easyui-elements-item-contentDefault: theme('colors.alpha.white.50');
+  --easyui-elements-item-contentActive: theme('colors.white');
+  --easyui-elements-item-contentAccent: #2ae845;
+  --easyui-elements-item-contentDanger: theme('colors.red.500');
+  --easyui-elements-item-backgroundDefault: rgba(255, 255, 255, 0);
+  --easyui-elements-item-backgroundActive: theme('colors.alpha.white.10');
+  --easyui-elements-item-backgroundAccent: theme('colors.alpha.accent.10');
+  --easyui-elements-item-backgroundDanger: theme('colors.alpha.red.10');
+
+  --easyui-elements-loader-background: theme('colors.alpha.gray.10');
+  --easyui-elements-loader-progress: theme('colors.accent.500');
+
+  --easyui-elements-artifacts-background: theme('colors.gray.900');
+  --easyui-elements-artifacts-backgroundHover: theme('colors.alpha.white.5');
+  --easyui-elements-artifacts-borderColor: var(--easyui-elements-borderColor);
+  --easyui-elements-artifacts-inlineCode-background: theme('colors.gray.800');
+  --easyui-elements-artifacts-inlineCode-text: theme('colors.white');
+
+  --easyui-elements-actions-background: theme('colors.gray.900');
+  --easyui-elements-actions-code-background: theme('colors.gray.800');
+
+  --easyui-elements-messages-background: theme('colors.gray.800');
+  --easyui-elements-messages-linkColor: theme('colors.accent.500');
+  --easyui-elements-messages-code-background: theme('colors.gray.900');
+  --easyui-elements-messages-inlineCode-background: theme('colors.gray.700');
+  --easyui-elements-messages-inlineCode-text: var(--easyui-elements-textPrimary);
+
+  --easyui-elements-icon-success: theme('colors.green.400');
+  --easyui-elements-icon-error: theme('colors.red.400');
+  --easyui-elements-icon-primary: theme('colors.gray.950');
+  --easyui-elements-icon-secondary: theme('colors.gray.600');
+  --easyui-elements-icon-tertiary: theme('colors.gray.500');
+
+  --easyui-elements-dividerColor: theme('colors.gray.100');
+
+  --easyui-elements-prompt-background: theme('colors.alpha.gray.80');
+
+  --easyui-elements-sidebar-dropdownShadow: theme('colors.alpha.gray.30');
+  --easyui-elements-sidebar-buttonBackgroundDefault: theme('colors.alpha.accent.10');
+  --easyui-elements-sidebar-buttonBackgroundHover: theme('colors.alpha.accent.20');
+  --easyui-elements-sidebar-buttonText: theme('colors.accent.500');
+
+  --easyui-elements-preview-addressBar-background: var(--easyui-elements-bg-depth-1);
+  --easyui-elements-preview-addressBar-backgroundHover: theme('colors.alpha.white.5');
+  --easyui-elements-preview-addressBar-backgroundActive: var(--easyui-elements-bg-depth-1);
+  --easyui-elements-preview-addressBar-text: var(--easyui-elements-textSecondary);
+  --easyui-elements-preview-addressBar-textActive: var(--easyui-elements-textPrimary);
+
+  --easyui-elements-terminals-background: var(--easyui-elements-bg-depth-1);
+  --easyui-elements-terminals-buttonBackground: var(--easyui-elements-bg-depth-3);
+
+  --easyui-elements-cta-background: theme('colors.alpha.white.10');
+  --easyui-elements-cta-text: theme('colors.white');
+
+  /* Terminal Colors */
+  --easyui-terminal-background: var(--easyui-elements-terminals-background);
+  --easyui-terminal-foreground: #eff0eb;
+  --easyui-terminal-selection-background: #97979b33;
+  --easyui-terminal-black: #000000;
+  --easyui-terminal-red: #ff5c57;
+  --easyui-terminal-green: #5af78e;
+  --easyui-terminal-yellow: #f3f99d;
+  --easyui-terminal-blue: #57c7ff;
+  --easyui-terminal-magenta: #ff6ac1;
+  --easyui-terminal-cyan: #9aedfe;
+  --easyui-terminal-white: #f1f1f0;
+  --easyui-terminal-brightBlack: #686868;
+  --easyui-terminal-brightRed: #ff5c57;
+  --easyui-terminal-brightGreen: #5af78e;
+  --easyui-terminal-brightYellow: #f3f99d;
+  --easyui-terminal-brightBlue: #57c7ff;
+  --easyui-terminal-brightMagenta: #ff6ac1;
+  --easyui-terminal-brightCyan: #9aedfe;
+  --easyui-terminal-brightWhite: #f1f1f0;
+}
+
+/*
+ * Element Tokens
+ *
+ * Hierarchy: Element Token -> (Element Token | Color Tokens) -> Primitives
+ */
+:root {
+  --header-height: 54px;
+  --chat-max-width: 37rem;
+  --chat-min-width: 640px;
+  --workbench-width: min(calc(100% - var(--chat-min-width)), 2536px);
+  --workbench-inner-width: var(--workbench-width);
+  --workbench-left: calc(100% - var(--workbench-width));
+
+  /* Toasts */
+  --toastify-color-progress-success: var(--easyui-elements-icon-success);
+  --toastify-color-progress-error: var(--easyui-elements-icon-error);
+
+  /* Terminal */
+  --easyui-elements-terminal-backgroundColor: var(--easyui-terminal-background);
+  --easyui-elements-terminal-textColor: var(--easyui-terminal-foreground);
+  --easyui-elements-terminal-cursorColor: var(--easyui-terminal-foreground);
+  --easyui-elements-terminal-selection-backgroundColor: var(--easyui-terminal-selection-background);
+  --easyui-elements-terminal-color-black: var(--easyui-terminal-black);
+  --easyui-elements-terminal-color-red: var(--easyui-terminal-red);
+  --easyui-elements-terminal-color-green: var(--easyui-terminal-green);
+  --easyui-elements-terminal-color-yellow: var(--easyui-terminal-yellow);
+  --easyui-elements-terminal-color-blue: var(--easyui-terminal-blue);
+  --easyui-elements-terminal-color-magenta: var(--easyui-terminal-magenta);
+  --easyui-elements-terminal-color-cyan: var(--easyui-terminal-cyan);
+  --easyui-elements-terminal-color-white: var(--easyui-terminal-white);
+  --easyui-elements-terminal-color-brightBlack: var(--easyui-terminal-brightBlack);
+  --easyui-elements-terminal-color-brightRed: var(--easyui-terminal-brightRed);
+  --easyui-elements-terminal-color-brightGreen: var(--easyui-terminal-brightGreen);
+  --easyui-elements-terminal-color-brightYellow: var(--easyui-terminal-brightYellow);
+  --easyui-elements-terminal-color-brightBlue: var(--easyui-terminal-brightBlue);
+  --easyui-elements-terminal-color-brightMagenta: var(--easyui-terminal-brightMagenta);
+  --easyui-elements-terminal-color-brightCyan: var(--easyui-terminal-brightCyan);
+  --easyui-elements-terminal-color-brightWhite: var(--easyui-terminal-brightWhite);
+}
