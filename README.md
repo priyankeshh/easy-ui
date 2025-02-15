@@ -1,6 +1,6 @@
 # EasyUI
 
-EasyUI is an intuitive AI-powered UI development assistant that helps developers build and manage web applications through natural language interactions.
+EasyUI is an intuitive AI-powered UI development assistant that helps developers build and manage web applications through natural language interactions. Inspired by and forked from bolt.new, EasyUI builds upon existing innovations in AI-assisted development while adding its own unique features and improvements.
 
 ![EasyUI Banner](./public/banner.png)
 
@@ -72,21 +72,6 @@ npm run dev
 - `npm test` - Run tests
 - `npm run deploy` - Deploy to Cloudflare Pages
 
-## 🐳 Docker Support
-
-Build and run using Docker:
-
-```bash
-# Development build
-npm run dockerbuild
-
-# Production build
-npm run dockerbuild:prod
-
-# Run container
-npm run dockerrun
-```
-
 ## 🔑 Configuration
 
 The application can be configured through:
@@ -110,7 +95,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Priyankesh - [Your Contact Information]
 
-Project Link: [https://github.com/yourusername/easyui](https://github.com/yourusername/easyui)
+Project Link: [https://github.com/priyankeshh/easy-ui](https://github.com/priyankeshh/easy-ui)
 
 ## 🙏 Acknowledgments
 
