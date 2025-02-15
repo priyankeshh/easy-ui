@@ -2,7 +2,7 @@
 
 EasyUI is an intuitive AI-powered UI development assistant that helps developers build and manage web applications through natural language interactions. Inspired by and forked from bolt.new, EasyUI builds upon existing innovations in AI-assisted development while adding its own unique features and improvements.
 
-![EasyUI Banner](./public/banner.png)
+<img src="./public/banner.png" alt="EasyUI Banner" width="400" />
 
 ## ✨ Features
 
