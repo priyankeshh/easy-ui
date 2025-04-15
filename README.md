@@ -88,12 +88,6 @@ The application can be configured through:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📧 Contact
-
-Priyankesh - [Your Contact Information]
-
-Project Link: [https://github.com/priyankeshh/easy-ui](https://github.com/priyankeshh/easy-ui)
-
 ## 🙏 Acknowledgments
 
 - [Remix](https://remix.run/)
